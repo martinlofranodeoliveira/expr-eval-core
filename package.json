@@ -1,0 +1,14 @@
+{
+  "name": "expr-eval-core",
+  "version": "0.1.0",
+  "description": "Arithmetic expression evaluator: Pratt parser, precedence, variables, math builtins. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/expr.test.js",
+    "demo": "node bin/expr.mjs --assert"
+  }
+}
